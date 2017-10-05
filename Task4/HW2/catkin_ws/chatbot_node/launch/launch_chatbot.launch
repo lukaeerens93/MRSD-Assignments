@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<launch>
+
+  <param name="name" value="Luka" />
+
+  <node name="chatbot_node" pkg="chatbot_node" type="chatbot_node">
+  </node>
+
+  <node name="counter_node" pkg="counter_node" type="counter_node">
+  </node>
+
+  <node name="arithmetic_node" pkg="arithmetic_node" type="arithmetic_node">
+  </node>
+
+</launch>

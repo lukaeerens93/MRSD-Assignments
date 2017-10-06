@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MessageGUI</class>
+ <widget class="QWidget" name="MessageGUI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>344</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Chat GUI</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0,0,0,0">
+
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+      <widget class="QLineEdit" name="message_to_send">
+       <property name="toolTip">
+        <string>Message to send</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="send_message">
+       <property name="toolTip">
+        <string>Send Message</string>
+       </property>
+       <property name="text">
+        <string>Send Message</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+        <widget class="QLabel" name="reply_label">
+         <property name="text">
+          <string>Reply from Chatbox: </string>
+         </property>
+        </widget>
+      </item>
+      <item>
+        <widget class="QLabel" name="reply">
+         <property name="text">
+          <string>-</string>
+         </property>
+        </widget>
+      </item>
+    </layout>
+   </item>
+
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+      <widget class="QLineEdit" name="counter_val_to_get">
+       <property name="toolTip">
+        <string>
+          Counter ID to retrieve. 
+          0 - total number of msgs, 
+          1 - # reply msgs, 
+          2 - # sent msgs,
+          3 - last reply message time,
+          4 - last sent message time. 
+        </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="send_request">
+       <property name="toolTip">
+        <string>Send Request</string>
+       </property>
+       <property name="text">
+        <string>Send Request</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+        <widget class="QLabel" name="counter_reply_label">
+         <property name="text">
+          <string>Reply from Counter: </string>
+         </property>
+        </widget>
+      </item>
+      <item>
+        <widget class="QLabel" name="counter_reply">
+         <property name="text">
+          <string>-</string>
+         </property>
+        </widget>
+      </item>
+    </layout>
+   </item>
+
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

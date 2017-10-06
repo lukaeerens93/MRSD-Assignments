@@ -1,0 +1,17 @@
+<library path="/src">
+  <class name="MessageGUI" type="message_ui.message_gui.MessageGUI" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      A Python GUI plugin to chat with MRSD Siri.
+    </description>
+    <qtgui>
+      <group>
+        <label>MessageGUI</label>
+        <icon type="theme">folder</icon>
+        <statustip>Plugin to chat with MRSD Siri.</statustip>
+      </group>
+      <label>MessageGUI</label>
+      <icon type="theme">input-gaming</icon>
+      <statustip>A Python GUI plugin to chat with MRSD Siri.</statustip>
+    </qtgui>
+  </class>
+</library>

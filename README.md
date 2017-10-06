@@ -7,14 +7,14 @@ You need to follow the installation instructions which can be found on the pdf d
 
 How to get this to run is to open one terminal, and open up the catkin_ws/ directory:
 
-'''
+''
 cd catkin_ws/
-'''
+''
 
 Inside that terminal open up ros by entering:
-'''
+''
 roscore
-'''
+''
 
 
 If you have not already done so, open up a new terminal and open up the catkin_ws/ directory and recompile your code using:
